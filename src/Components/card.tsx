@@ -1,23 +1,14 @@
-import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
+import { GithubLogo, InstagramLogo, LinkedinLogo, SignIn } from "phosphor-react";
 import Icon from "./svg";
 
 export function Card() {
   return (
-    <div className="bg-img min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col">
-      <div className="flex">
-        <a
-          href="https://www.instagram.com/mateus__bg/"
-          className="bold text-1xl mt-9 ml-9 flex justify-center items-center hover:text-green-600"
-        >
-            <InstagramLogo size={28} />
-             Mateus_bg
-        </a>
-      </div>
+    <div className="bg-img min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col ">
 
       <div className="flex flex-row mt-11 items-center justify-center p-[100px]  pl-[300px] ">
         <div className="">
           <h1 className="text-6xl">Mateus Borges</h1>
-          <span className="text-6xl text-green-400 bold">DEV-Junior</span>
+          <span className="text-6xl text-green-400 bold">Full-Stack</span>
           
           <p className="bold w-[600px] mt-8">
             Sou estudante de sistemas de informação, com experiência em

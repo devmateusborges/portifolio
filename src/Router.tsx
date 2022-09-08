@@ -4,9 +4,12 @@ import { Home } from "./Page/Home";
 
 export function Router() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
 
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashbord" element={<Home/>} />
+
+      </Routes>
+
   );
 }
